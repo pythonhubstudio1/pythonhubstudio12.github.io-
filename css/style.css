@@ -1,0 +1,197 @@
+
+
+
+@import url('https: //fonts.googleapis.com/css2?family=Michroma+Pro&display=swap');
+
+
+p{
+    color: aquamarine;
+}
+/* body {
+    background-color: blue;
+} */
+body {
+    font-family: Michroma, serif;
+
+
+    background: linear-gradient(90deg, #0c1be3 0%, #000000 100%);
+}
+footer {
+    font-family: Michroma, serif;
+    background: linear-gradient(270deg, #0C1AD2 0%, #000000 100%);
+}
+
+.navbar-brand{
+    color: aqua;
+}
+
+.nav-item .nav-link.active{
+    color: rgb(139, 139, 139);
+}
+.nav-link{
+    color: aquamarine;
+}
+
+.nav-link:hover{
+    color: aqua;
+}
+
+.navbar-brand img{
+    width: 40px;
+}
+
+.navbar-toggler{
+    background-color: rgb(232, 232, 232);
+}
+
+.img555{
+    height: 12em;
+}
+
+.sidebar{
+    color: aquamarine;
+    background: linear-gradient(270deg, #0C1AD2 0%, #000000 100%);
+}
+
+.card{
+    background: linear-gradient(270deg, #0C1AD2 0%, #000000 100%);
+    color: aquamarine;
+}
+
+.img1111{
+    max-width: 100%;
+}
+
+.carousel-item{
+    color: aqua;
+}
+
+.img5544,
+.footer-text p {
+    margin: auto auto;
+    color: aqua;
+}
+
+@media (max-width: 759px){
+    .carousel-indicators{
+        display: none;
+    }
+}
+
+.img545454{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6em;
+}
+
+#img54545454 {
+    width: 5em;
+}
+
+
+
+
+
+
+
+#tr-popup.tr-popup{
+    display: none;
+}
+
+
+.body{
+    width: 100%;
+}
+
+.images1101{
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70% {
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60% {
+        transform: translateX(10px);
+    }
+
+    80% {
+        transform: translateX(8 8px);
+    }
+
+    90% {
+        transform: translateX(-8px);
+    }
+}
+
+.hhhh{
+    padding: 0.8em;
+    background: linear-gradient(270deg, #0C1AD2 0%, #000000 100%);
+    text-decoration: none;
+    color: aqua;
+}
+
+.hhhh:hover{
+    background-color: #ffffff;
+    color: aqua;
+
+}
+
+.para{
+    color: rgb(0, 238, 255);
+    opacity: 0;
+    margin-top: 0;
+}
+
+
+.images1101,
+.para {
+    display: inline;
+
+
+}
+
+
+
+.images1101 , 
+.para:hover{
+    opacity: 1;
+    display: inline;
+}
+
+.para{
+    padding-left: 0em;
+    padding-right: 1em;
+    background: linear-gradient(270deg, #0C1AD2 0%, #000000 100%);
+  
+}
+
+.images1101{
+    margin-left: 7em;
+    opacity: 1;
+
+}
+
+
+
+
+
+
+
+/* <img class="images1101" src="css/images/phone.png" style="width: 50px;" alt=""> */
+
+
